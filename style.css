@@ -1,0 +1,133 @@
+body{padding:0;
+margin:0;
+font-family:arial;}
+
+#im {
+width:15%;
+height:15%;}
+
+ul{background:black;
+list-style:none;
+text-align:center;
+padding:20px 0px 20px 0px;
+width:100%;
+overflow:hidden;
+margin:0;}
+
+li{display:inline-block;
+padding-right:50px;
+position:relative;
+}
+
+a{text-decoration:none;
+color:white;}
+
+a:hover{color:red;}
+a:hover{box-shadow:0px 1px red;}
+
+#im{position:absolute;
+  left:20px;
+width:150px;
+height:58px;}
+
+#im:hover{transform:scale(1.1);}
+
+h1{text-align:center;}
+
+form{text-align:center;
+line-height:30px;}
+
+#email{padding:4px;
+border-radius:5px;}
+#submit{padding:3px;
+background:black;
+color:white;
+border-radius:5px;}
+
+#season1 {width:150px;
+height:150px;
+position:absolute;}
+
+#tg1{margin-left:180px;}
+
+#desc1 {margin-left:180px;}
+
+#season3 {width:150px;
+  height:150px;
+position:absolute;
+top:585px;}
+
+#tg3{margin-left:180px;
+margin-top:102px;}
+
+#desc3 {margin-left:180px;}
+
+
+#season2 {width:150px;
+  height:150px;
+position:absolute;
+top:400px;}
+
+#tg2{margin-left:180px;
+margin-top:80px;}
+
+#desc2 {margin-left:180px;}
+
+#video{position:relative;
+left:25%;
+top:80px;}
+
+#box1{width:300px;
+height:300px;
+background:lightgrey;
+position:relative;
+top:120px;
+left:20px;}
+
+#box2{width:300px;
+height:300px;
+background:lightgrey;
+position:relative;
+top:120px;
+left:50px;}
+
+#box3{width:300px;
+height:300px;
+background:lightgrey;
+position:relative;
+top:120px;
+left:80px;}
+
+#container{display:flex;
+flex-direction:row;
+justify-content:center;}
+
+h3{text-align:center;
+background:grey;
+font-size:25px;}
+
+.price{font-size:20px;}
+
+#season11 {width:150px;
+height:150px;
+position:absolute;
+left:25%}
+
+#season22 {width:150px;
+height:150px;
+position:absolute;
+left:25%}
+
+#season33 {width:150px;
+height:150px;
+position:absolute;
+left:25%}
+
+@media (min-width:300px;) {#video{width:460px;
+  height:215px;}}
+
+@media (min-width:300px;){ body {background-color:yellow;}}
+
+img{display:block;
+width:100%;
+margin:auto;}
